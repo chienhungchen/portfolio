@@ -1,0 +1,5 @@
+name: Chien-Hung Chen
+markdown: redcarpet
+pygments: true
+permalink: pretty
+exclude: [CNAME, README.md]

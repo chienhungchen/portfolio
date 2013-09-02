@@ -1,0 +1,236 @@
+---
+---
+
+@import "css/blog.less";
+@import "css/icons.less";
+
+/* Importing Fonts
+--------------------------------------------------*/
+@font-face{
+    font-family: 'CopperplateGothicLightRegular';
+    src: url('/fonts/copperplate_gothic_light-webfont.eot');
+    src: url('/fonts/copperplate_gothic_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/copperplate_gothic_light-webfont.woff') format('woff'),
+         url('/fonts/copperplate_gothic_light-webfont.ttf') format('truetype'),
+         url('/fonts/copperplate_gothic_light-webfont.svg#CopperplateGothicLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('/fonts/roboto-light-webfont.eot');
+    src: url('/fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/roboto-light-webfont.woff') format('woff'),
+         url('/fonts/roboto-light-webfont.ttf') format('truetype'),
+         url('/fonts/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Resetting CSS
+--------------------------------------------------*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{ display: block; }
+body{ line-height: 1; }
+ol, ul{ list-style: none; }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'robotolight', sans-serif;
+    font-size: 12px;
+}
+
+#header {
+    font-family: 'CopperplateGothicLightRegular';
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #f0f0f0;
+    background-image: -webkit-linear-gradient(top, rgba(252, 252, 252, 0.6) 0%, rgba(252, 252, 252, 0.6) 30%, rgba(226, 226, 226, 0.6) 72%, rgba(222, 222, 222, 0.6) 100%);
+    border-bottom: 1px solid #f0f0f0;
+    box-shadow: 0 0 1px 2px #bdbdbd;
+    margin: 0;
+    padding: 0;
+    color: #606060;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#header-text {
+    font-size: 2.3em;
+    line-height: 50px;
+    margin: 0;
+    position: absolute;
+    right: 20px;
+}
+
+#menu-icon {
+    display: none;
+    background: url(/images/pagenav_list.png) 15px -4px no-repeat;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#header-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.4em;
+}
+
+#header-menu > li {
+    float: left;
+    border-right: 1px solid #ddd;
+    box-shadow: inset 1px 0 0 0 #f0f0f0;
+    cursor: pointer;
+}
+
+#header-menu > li.current {
+    background-color: #f0f0f0;
+    background-image: -webkit-linear-gradient(top, rgba(222, 222, 222, 0.6) 0%, rgba(226, 226, 226, 0.6) 30%, rgba(252, 252, 252, 0.6) 72%, rgba(252, 252, 252, 0.6) 100%);
+    border-bottom: 1px solid #eee;
+}
+
+#header-menu > li > a {
+    display: inline-block;
+    color: #555;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 15px;
+}
+
+#header-menu > li:hover {
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(
+        top,
+        rgba(255, 255, 255, 0.6) 0%,
+        rgba(255, 255, 255, 0.6) 30%,
+        rgba(231, 231, 231, 0.6) 72%,
+        rgba(227, 227, 227, 0.6) 100%
+    );
+    border-bottom: 1px solid #fff;
+}
+
+#header-menu > li.current:hover {
+    background-color: #f0f0f0;
+    background-image: -webkit-linear-gradient(top, rgba(232, 232, 232, 0.6) 0%, rgba(236, 236, 236, 0.6) 30%, rgba(255, 255, 255, 0.6) 72%, rgba(255, 255, 255, 0.6) 100%);
+    border-bottom: 1px solid #eee;
+}
+
+#header-menu > li:hover > a {
+    color: #333;
+}
+
+.content-wrapper {
+    margin: 0;
+    padding: 70px 30px 100px;
+    font-size: 1.6em;
+    color: #555;
+    text-align: center;
+}
+
+.content {
+    display: inline-block;
+    text-align: left;
+    margin-top: 45px;
+    max-width: 70%;
+}
+
+.content .content-header {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.content .content-text {
+    margin: 15px 0;
+}
+
+.content a {
+    color: #555;
+    text-decoration: none;
+    border-bottom: 1px #666 dotted;
+}
+
+.content a:visited {
+    color: #7c7c7c;
+}
+
+.content a:hover {
+    color: #0190CB;
+}
+
+#footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 1.2em;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    box-shadow: 0 0 1px 2px #e0e0e0;
+}
+
+#footer #copyright {
+    float: left;
+    margin-top: 10px;
+}
+
+#footer i {
+    float: right;
+}
+@media (max-width: 960px) {
+    .content {
+        max-width: 85%;
+    }
+}
+
+@media (max-width: 675px) {
+    #menu-icon {
+        display: block;
+    }
+
+    #header-menu > li {
+        float: none;
+        border-right: 1px solid #ddd;
+        box-shadow: inset 1px 0 0 0 #f0f0f0;
+        border-top: 1px solid #ddd;
+
+        &.current {
+            background-color: #fcfcfc;
+            background-image: none;
+            border-bottom: none;
+        }
+
+        > a {
+            width: 100%;
+        }
+    }
+
+    #header-menu {
+        display: none;
+        background-color: #fcfcfc;
+        border-bottom: 1px solid #f0f0f0;
+        box-shadow: 0px 4px 10px -2px #888;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .content {
+        max-width: 100%;
+
+        &.about {
+            max-width: 85%;
+        }
+    }
+}

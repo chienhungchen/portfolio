@@ -1,0 +1,17 @@
+---
+layout: default
+title: Blog &middot; Chien-Hung Chen
+page_id: blog
+---
+
+
+<div class="content">
+	<h2 class="content-header">Blog Posts</h2>
+	<ul class="posts">
+		{% for post in site.posts %}
+			{% if post.categories contains 'blog' %}
+				<li><a href="{{ post.url }}">{{ post.title }}</a> <span class="separator">&middot;</span> <span>{{ post.date | date: "%B %d, %Y" }}</span></li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>

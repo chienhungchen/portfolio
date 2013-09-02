@@ -1,0 +1,111 @@
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+.post-date {
+    font-size: 0.8em;
+    padding: 15px 0 0 0;
+}
+
+.post {
+    font-size: 1em;
+    padding: 30px 0 0 0;
+    line-height: 1.5em;
+
+    p, div, section {
+        padding: 0 0 30px 0;
+    }
+
+    ul, ol {
+      list-style-type: square;
+    }
+
+    h2 {
+      font-size: 1.4em;
+      font-weight: bold;
+    }
+    h3 {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+}
+
+.posts {
+    padding: 30px 0 0 0;
+
+    li {
+      padding: 0 0 20px;
+      line-height: 1.5em;
+    }
+}
+
+.tags {
+  padding: 10px 0 0;
+  color: #aaa;
+  .tag {
+    font-size: 0.8em;
+  }
+}
+
+.related-posts {
+  border-top: 1px solid #dcdcdc;
+  padding: 20px 0 30px;
+
+  .related-post {
+    padding-top: 20px;
+  }
+}
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eee;
+  padding: 1em 0.4em;
+  font-size: 0.8em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre {
+    overflow: scroll;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
+
+@media (max-width: 450px) {
+
+    .posts {
+
+    li > span {
+        display: block;
+        font-size: 0.85em;
+
+        &.separator {
+            display: none;
+        }
+    }
+}
+}

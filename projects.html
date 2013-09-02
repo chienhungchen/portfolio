@@ -1,0 +1,16 @@
+---
+layout: default
+title: Projects &middot; Chien-Hung Chen
+page_id: projects
+---
+
+<div class="content">
+	<h2 class="content-header">Projects</h2>
+	<ul class="posts">
+		{% for post in site.posts %}
+			{% if post.categories contains 'projects' %}
+				<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>
