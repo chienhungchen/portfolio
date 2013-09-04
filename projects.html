@@ -9,7 +9,7 @@ page_id: projects
 	<ul class="posts">
 		{% for post in site.posts %}
 			{% if post.categories contains 'projects' %}
-				<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+				<li><a href="{{ post.url }}">{{ post.title }}</a> &middot; <span class="project-short-desc">{{post.short_desc}}</span></li>
 			{% endif %}
 		{% endfor %}
 	</ul>

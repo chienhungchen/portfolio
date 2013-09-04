@@ -1,0 +1,31 @@
+---
+layout: project
+title:  "dyCharts.js"
+short_desc: "Dynamic charts with drag and drop functionality."
+date:   2013-08-22 20:19:50
+page_id: projects
+---
+
+dyCharts.js is a plugin for HighCharts using jQuery UI to let developers give users dynamic charts that can be edited with simple drag-and-drop features.
+
+Current possible usage:
+
+- Pie Chart with Droppable Area
+- Pie Chart with Chart as Droppable Area
+- Line Chart with Droppable Area
+- Line Chart with Chart as Droppable Area
+- Column Chart with Droppable Area
+- Column Chart with Chart as Droppable Area
+- Area-Spline Chart with Droppable Area
+- Area-Spline with Chart as Droppable Area
+
+
+See code on Github: [https://github.com/chienhungchen/dychart.js][dychart_github]
+
+
+<!-- <div class="dychart-demo" id="piechart-droppable-area">
+
+</div> -->
+
+[piechart_with_droppable_area]: #piechart-droppable-area
+[dychart_github]: https://github.com/chienhungchen/dychart.js
