@@ -41,11 +41,8 @@
         <script>
             $(function(){
                 'use strict';
-
-                var open = !1;
                 $('#menu-icon').on('vclick', function(){
-                    $('#header-menu').css('display', open ? 'none' : 'block');
-                    open = !open;
+                    $('#header-menu').toggleClass('open');
                 });
             });
         </script>
