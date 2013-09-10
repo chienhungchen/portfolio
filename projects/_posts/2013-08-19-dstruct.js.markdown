@@ -1,0 +1,13 @@
+---
+layout: project
+title:  "dstruct.js"
+short_desc: "A JavaScript library with data structures you would normally see in a language like Java and C#."
+date:   2013-08-19 20:20:50
+page_id: projects
+---
+
+dstruct.js was a Javascript library built with the intent of porting over data structures that you would normally see in a language like Java and C#. Initial implementation had Stack and Queue complete and was working on Binary Trees. Then I found out about the Closure library and more or less lost interested. Damn you Google! :)
+
+See code on Github: [https://github.com/chienhungchen/dstruct.js][dstructjs_github]
+
+[dstructjs_github]: https://github.com/chienhungchen/dstruct.js

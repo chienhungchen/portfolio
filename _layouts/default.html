@@ -10,9 +10,11 @@
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
+        <!-- fotorama CSS -->
+        <link rel="stylesheet" href="/css/fotorama.css">
+
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
-
     </head>
     <body>
         <header id="header">
@@ -36,14 +38,22 @@
             <a href="http://linkedin.com/in/chienhungchen"><i class="sprite sprite-linkedin"></i></a>
             <a href="http://github.com/chienhungchen"><i class="sprite sprite-github"></i></a>
         </footer>
+
+
+        <!-- Le Scripts -->
+        <script src="/scripts/jquery.js"></script>
+        <script src="/scripts/fotorama.js"></script>
         <script>
-            (function(root){
+            $(function(){
+                'use strict';
+
                 var open = false;
-                document.getElementById('menu-icon').onclick = function(){
-                    document.getElementById('header-menu').style.display = open ? 'none' : 'block';
+
+                $('#menu-icon').on('vclick', function(){
+                    $('#header-menu').css('display', open ? 'none' : 'block');
                     open = !open;
-                };
-            })(this);
+                });
+            });
         </script>
     </body>
 </html>
