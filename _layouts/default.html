@@ -42,10 +42,8 @@
             $(function(){
                 'use strict';
 
-                var open = false;
-
+                var open = !1;
                 $('#menu-icon').on('vclick', function(){
-                    console.log('der');
                     $('#header-menu').css('display', open ? 'none' : 'block');
                     open = !open;
                 });
