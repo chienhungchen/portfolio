@@ -4,6 +4,7 @@ title:  "Use Jekyll For JavaScript Projects!"
 date:   2013-09-21 10:02:00
 categories: blog
 page_id: blog
+page_disqus_id: "blog/use-jekyll-for-javascript-projects"
 tags: javascript jekyll jQuery development
 ---
 

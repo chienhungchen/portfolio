@@ -4,6 +4,7 @@ title:  "JavaScript Tricks I Like"
 date:   2013-08-29 00:45:30
 categories: blog
 page_id: blog
+page_disqus_id: "blog/javascript-tricks-i-like"
 tags: javascript tricks development
 ---
 

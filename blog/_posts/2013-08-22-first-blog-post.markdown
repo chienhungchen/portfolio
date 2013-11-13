@@ -4,6 +4,7 @@ title:  "First Blog Post!"
 date:   2013-08-22 20:19:50
 categories: blog
 page_id: blog
+page_disqus_id: "blog/first-blog-post"
 tags: javascript jekyll github helloworld development
 ---
 
@@ -20,4 +21,4 @@ Excuse me while I test out some code snippet stuff.
 In the meantime (aka while i'm trying to cook up more posts), Check out my [Twitter][twitter] for random tweets and my [Github][github] for some of my projects.
 
 [github]: https://github.com/chienhungchen
-[twitter]:    http://twitter.com/jeffchen330
+[twitter]: http://twitter.com/jeffchen330
