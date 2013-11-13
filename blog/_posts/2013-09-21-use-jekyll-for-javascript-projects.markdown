@@ -13,7 +13,7 @@ I love working on JavaScript libraries / jQuery plugins. I love it because it's 
 However, one of the annoyances with building JavaScript libraries is trying to work on it as if you are working on a live site (especially when you're setting up demos of your JS stuff). Most of the time, when I'm working on a JavaScript library locally, I access it in the browser via some nasty location string that looks like:
 
 {% highlight javascript %}
-	file://localhost/Users/chienhungchen/Documents/allsrc/projects/readstats.js/demos/index.html
+	file://localhost/Users/yourname/Documents/code/projects/your-script.js/demos/index.html
 {% endhighlight %}
 
 But then, especially during those times when you need to access some more scripts or content or something via another path, I'd have to access it via some relative path that just isn't what you would usually use in a live site:
@@ -25,7 +25,7 @@ But then, especially during those times when you need to access some more script
 or:
 
 {% highlight html %}
-	src="/Users/chienhungchen/Documents/allsrc/rojects/readstats.js/demos/derplocatiokn/script-i-need.js"
+	src="/Users/yourname/Documents/code/projects/your-script.js/demos/derplocation/script-i-need.js"
 {% endhighlight %}
 
 In comes Jekyll. It's lightweight, easy to install and get up and running. I've started using it when developing demos for JavaScript libraries and plugins because it is so easy to work with. You can run your site locally, but have the benefits of using it like you would in a live site (when it comes to the issues above).
