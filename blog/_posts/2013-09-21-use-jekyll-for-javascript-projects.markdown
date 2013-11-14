@@ -35,7 +35,7 @@ It compiles your templates, markdown, and html markup into html files that can b
 Try it out, perhaps it'll make your life easier as a JavaScript developer.
 
 
-Tweet me at [@jeffchen330][twitter] with your thoughts on using Jekyll this way or if you have better ideas for working with JavaScript locally. Also, check out my [Github][github] for some of my JS stuff.
+Tweet me at [@jeffchen330][twitter] or comment below with your thoughts on using Jekyll this way or if you have better ideas for working with JavaScript locally. Also, check out my [Github][github] for some of my JS stuff.
 
 [github]: http://github.com/chienhungchen
 [twitter]:    http://twitter.com/jeffchen330

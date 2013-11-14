@@ -120,7 +120,7 @@ You should be writing:
 Also, keep in mind here that waiting for the $(document).ready(); to execute your code may not always be the best thing to do. There are times when your code doesn't need to wait for the document to be ready (hint: look at jQuery's [on()][jquery_on_function] function).
 
 
-Thanks for reading and feel free to follow my [Twitter][twitter] for random tweets and updates on my blog and my [Github][github] for some of my projects.
+Thanks for reading and feel free to follow my [Twitter][twitter] for random tweets and updates on my blog and my [Github][github] for some of my projects. Comment below and tell me about your favorite JS tricks and shorthands!
 
 [jquery_on_function]: http://api.jquery.com/on/
 [github]: https://github.com/chienhungchen
