@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why do all emails require phone verification?!"
-date:   2013-1-14 10:02:00
+date:   2013-11-14 10:02:00
 categories: blog
 page_id: blog
 page_disqus_id: "blog/why-do-all-emails-require-phone-verification"
