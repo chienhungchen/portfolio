@@ -1,0 +1,23 @@
+---
+layout: project
+title:  "Tackk"
+short_desc: "A social media content creation platform"
+date:   2014-02-20 20:20:50
+page_id: projects
+---
+
+I worked at Tackk as a software engineer for a little over a year with a great team of developers. One of the most amazing feats we did was to rebuild the entire web application from scratch in about 4-5 months. This included an editing experience, which you see when you go to the homepage, discovery and browsing in the Tackkboard, and APIs, administrative features on top of all of those things.
+
+At Tackk I worked on both the backend and the frontend, ranging from coding new model layers and API controllers, to front-end JavaScript modules and stylized UI components. I built the scaffolding infrastructure that the sections of content you add onto a Tackk is built on. I also put together the frontend and backend architecture for the Tackkboard and user profiles. Languages and technologies I worked with included PHP, JavaScript, jQuery, Backbone.js, LESS, HTML5, Mustache, and MySQL.
+
+Below are some screenshots I took of the site. You can also see the latest version at [tackk.com][tackk_url]
+
+<div class="fotorama" data-width="100%" data-ratio="4/3" data-allowfullscreen="true" data-fit="contain" data-nav="thumbs">
+	<img src="/images/tackk/tackk-1.png">
+	<img src="/images/tackk/tackk-2.png">
+	<img src="/images/tackk/tackk-3.png">
+	<img src="/images/tackk/tackk-4.png">
+	<img src="/images/tackk/tackk-5.png">
+</div>
+
+[tackk_url]: https://tackk.com
