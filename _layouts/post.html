@@ -8,7 +8,7 @@ layout: default
 	
 	<section class="tags">
 		{% for tag in page.tags %}
-			<span class="tag">#{{tag}}</span>
+			<a href="/tags/{{tag}}" class="tag">#{{tag}}</a>
 		{% endfor %}
 	</section>
 
@@ -16,8 +16,11 @@ layout: default
 		{{ content }}
 	</section>
 
-	
 	<section class="related-posts">
+		<div class="share">
+			<a href="https://twitter.com/share" class="twitter-share-button" data-via="jeffchen330">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		</div>
 		<h2 class="content-header">Other Posts</h2>
 		{% assign rendered_posts = '' %}
 		{% for post in site.related_posts %}
